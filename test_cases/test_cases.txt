@@ -1,0 +1,21 @@
+Just a little document outlining how I tested my application.
+
+1. Creating an image
+- fill out form fields and upload sample image
+- click "submit"
+- image should be displayed along with creator name, time stamp and title
+
+2. Editing an image
+- click the ... button on an image
+- form fields should automatically be populated with creator name and title of appropiate image
+- click "submit"
+- image creator name and title should reflect changes
+
+3. Deleting an image
+- click the delete button on an image
+- check mongoDB database and ensure object is removed
+
+3. Fetching images
+- ensure you have image object on database
+- restart client side server
+- ensure all image objects are appropiately displayed upon start up
