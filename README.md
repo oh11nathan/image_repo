@@ -1,6 +1,13 @@
 # Image Repository
 
 This image repository is created using the MERN stack for Shopify's Fall 2021 Developer challenge.
+![App](/client/src/images/app_page.png?raw=true "Title")
+Features
+- Store images on database.
+- Edit images.
+- Delete images.
+
+I would've liked to implemented automated testing, but I needed more time. The core functionalities of the Image Repo were manually tested. See tests folder for the test cases.
 
 ## Prerequisite 
 This application uses MongoDB Atlas, a free cloud database service. Make sure you have an account and a database setup. Complete the first four steps:
